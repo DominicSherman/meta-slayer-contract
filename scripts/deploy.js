@@ -16,6 +16,12 @@ const characters = {
     image: "https://i.imgur.com/WMB6g9u.png",
     hp: 300,
     attack: 25,
+  },
+  Kanye: {
+    name: "Kanye",
+    image: 'https://media.gq.com/photos/5ada5562596b2335072c9b59/master/w_1600%2Cc_limit/kanye-west-0814-GQ-FEKW07.01.jpg',
+    hp: 100,
+    attack: 100,
   }
 }
 
@@ -23,7 +29,7 @@ const bigBoss = {
   name: 'The Zuck',
   image: 'https://images.newrepublic.com/b53d30e509b44bfc5f7bf3d3a03cc000fcd50623.jpeg?auto=compress&w=768&h=undefined&ar=3%3A2&fit=crop&crop=faces&q=65&fm=jpg&ixlib=react-9.0.2',
   hp: 1000,
-  attack: 50,
+  attack: 25,
 }
 
 const getFields = (fieldName) => Object.values(characters).map(character => character[fieldName]);
